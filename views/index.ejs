@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Heureka</title>
+</head>
+<body>
+   <br>
+   
+   <div class="container">
+   <br>
+   <h1>Assuntos do momento</h1>
+   <a href="perguntarnode"><div class="btn button1 " style="float: right; margin-top: -40px; " > Perguntar </div></a>
+   <br>
+   <% perguntas.forEach(Perguntas => { %>
+   <div class="card" >
+      <br>
+      <h3><%= Perguntas.titulo %></h3>
+<p>  </p>
+   
+   <br>
+   </div>
+   <div class="btna">
+      <a href="/pergunta/<%= Perguntas.id %>"><button class="button3" style="margin-top:20px;" >Ver pergunta</button></a>
+   </div>
+   <br>
+
+   <% }) %>
+   
+   <br>
+   </div>
+   
+    
+</body>
+</html>

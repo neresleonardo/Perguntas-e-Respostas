@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+  }
+
+  body {
+    font: 400 14px Roboto, sans-serif;
+    background: black;
+    -webkit-font-smoothing: antialiased;
+  }
+
+input,
+button,
+textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+
+  
+
+
+.container {
+
+    width:100% ;
+    max-width:1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 32% ;
+    height: 400px ;
+    display: inline-block;
+    background-color: #1d1c24 ;
+    border-radius: 15px;
+    margin-left:11px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.card:hover {
+    transition: 2s;
+    background-color: #121117;
+    border: solid 1px #00e868;
+}
+
+
+h2{
+    font-size:25px;
+    color: white;
+    margin-top:10px;
+}
+
+span {
+    color:white;
+    font-size: 15px;
+}
+/* CORES */
+.green {
+    color:#00e868 ;
+}
+.orange {
+    color:#fe951f;
+}
+.roxo {
+    color:#7259c1;
+    
+}
+
+.button {
+    width: 80%;
+    height: 60px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+    cursor: pointer;
+  }
+
+
+
+  .button1 {
+      background-color:#00e868;
+      color: black;
+  }
+  .button2 {
+    background-color:#fe951f;
+    color: black;
+}
+.button3 {
+    background-color:#7259c1;
+    color: black;
+}
+  
+  .button:hover {
+    filter: brightness(90%);
+  }
+

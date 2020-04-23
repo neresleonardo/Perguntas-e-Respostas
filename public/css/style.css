@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+
+body{
+  background-color: black;
+}
+
+.menu {
+    width:100%;
+    height:60px;
+    background-color:#1d1c24;
+}
+
+input,
+button,
+textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+.container {
+    width:80%;
+    background-color:#1d1c24;
+    margin: 0 auto;
+    border-radius:20px;
+
+}
+
+.card {
+  width:95%;
+  height: 0px auto;
+    background-color:black;
+    margin: 0 auto;
+    border-radius:20px;
+    word-wrap: break-word;
+}
+
+a {
+    width: 50%;
+    height: 50px;
+}
+.btn {
+    width: 15%;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 40px;
+    transition: filter 0.2s;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  .container button {
+    margin-left: 50px;
+  }
+
+  .menu a .btn {
+    float: right;
+  }
+
+
+.button1 {
+    background-color:#00e868;
+    color: black;
+    text-align: center;
+}
+.button2 {
+  background-color:#fe951f;
+  color: black;
+}
+.button3 {
+  background-color:#7259c1;
+  color: black;
+}
+form {
+  text-align: center;
+}
+
+form input {
+  width: 80%;
+  height: 40px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  
+  padding: 0 24px;
+}
+
+form textarea {
+  width: 95%;
+  height: 100px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 16px 24px;
+  line-height: 24px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-left:30px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-left:30px;
+}
+
+p {
+  color: white;
+  font-size: 15px ;
+  font-family: 'Roboto', sans-serif;
+  margin-left:30px;
+  
+}
+
+button {
+  width: 15%;
+  height: 40px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-left: 20px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 40px;
+  transition: filter 0.2s;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}

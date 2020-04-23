@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Tudo certo</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <br>
+    <div class="container"><br><br><Br>
+        <div class="card" >
+               <br>
+               <h3> <%= pergunta.titulo %> </h3>
+               <br>
+               <p> <%= pergunta.descricao %> </p>
+               <br>
+        </div><br><br><Br>
+    </div>
+    <br><br>
+        
+        <Br>
+        <div class="container" style="clear: both;">
+            <br>
+            <h3 style="margin-left:50px;" >Ajude um dev</h3>
+            <br>
+            <form method="POST" action="/responder">
+        <textarea name="corpo" style="width:90%;  resize: vertical" " id="" cols="30" rows="10"></textarea>
+        <input type="hidden" name="resposta" value="<%= pergunta.id %>">
+        <br>
+        <button class="button1" style="float: left;"> Responder </button>
+        <br><br><br><br>
+    </form>
+        </div>
+        <br><br><br>
+
+
+        <div class="container" >
+            <br>
+            <h3>Respostas</h3>
+            
+            <% respostas.forEach(resposta =>{ %>
+            <br><br>
+            <div class="card" >
+            <br>
+            <h3> <%= resposta.corpo %> </h3>         
+            <br>
+            </div>
+                    
+                <% }) %>
+                <br><br>
+
+            <br>
+
+        </div>
+    
+    
+</body>
+</html>
